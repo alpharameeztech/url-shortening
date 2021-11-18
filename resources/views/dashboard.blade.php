@@ -24,12 +24,12 @@
                                     Shorten URL
                                 </button>
                             </div>
-
+                            
                             @if ($errors->any())
                             <div class="alert alert-danger">
                                 <ul>
                                     @foreach ($errors->all() as $error)
-                                        <li>{{ $error }}</li>
+                                        <li class="mt-2 text-red-800">{{ $error }}</li>
                                     @endforeach
                                 </ul>
                             </div>
