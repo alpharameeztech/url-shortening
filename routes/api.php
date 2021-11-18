@@ -17,3 +17,10 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+/**
+ * This route can be called without any token.
+ * If needs to be called with valid token
+ * then it sould be placed on the above auth:sanctum group
+ */
+Route::post('url', 'App\Http\Controllers\UrlController@store');
