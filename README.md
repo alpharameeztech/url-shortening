@@ -1,7 +1,7 @@
 # URL Shortening Service
 The web application is a basic url-shortening service. It has a basic form that consists of 1 text input
 field and 1 submit button. The text input field will be used for “destination url” which will basically be the long url that will be shortened.
-Below the input field, there should be a simple table showing the latest created urls on the system.
+Below the input field, there is a simple table showing the latest created urls on the system.
 
 ![Peek 2021-11-18 22-29](https://user-images.githubusercontent.com/36469012/142468035-c4163506-3182-4e45-975c-10de95bc3985.gif)
 
