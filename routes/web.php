@@ -15,7 +15,7 @@ use App\Http\Controllers\UrlController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('dashboard');
 });
 
 Route::get('/dashboard',  [UrlController::class, 'index'])->middleware(['auth'])->name('dashboard');
