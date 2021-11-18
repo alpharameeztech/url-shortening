@@ -22,3 +22,9 @@ Route::get('/dashboard', function () {
 })->middleware(['auth'])->name('dashboard');
 
 require __DIR__.'/auth.php';
+
+Route::get('/url', [UrlController::class, 'index'])->name('url.index')->middleware(['auth']);
+
+Route::get('/{url}', [UrlController::class, 'show'])->name('url.show')->middleware(['auth']);
+
+Route::post('/url', [UrlController::class, 'store'])->name('url.store')->middleware(['auth']);
