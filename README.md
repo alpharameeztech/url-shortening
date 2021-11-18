@@ -15,7 +15,7 @@ Below the input field, there is a simple table showing the latest created urls o
 
 ![Screenshot from 2021-11-18 22-21-13](https://user-images.githubusercontent.com/36469012/142468072-a2a2005d-99d5-4c9c-b1fd-24e415aa47eb.png)
 
-## ## Calling an API[site_url/api/url] without providing a valid URL
+## Calling an API[site_url/api/url] without providing a valid URL
 
 ![Screenshot from 2021-11-18 22-21-45](https://user-images.githubusercontent.com/36469012/142468112-fa4705c6-217a-4e7e-b40c-f20e5e7ce0b1.png)
 
